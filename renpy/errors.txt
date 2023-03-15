@@ -1,0 +1,10 @@
+﻿I'm sorry, but errors were detected in your script. Please correct the
+errors listed below, and try again.
+
+
+File "game/script.rpy", line 1: is not terminated with a newline. (Check strings and parenthesis.)
+(Perhaps you left out a ` at the end of the first line.)
+    `# 游戏的脚本可置于此文件中。
+
+Ren'Py Version: Ren'Py 8.0.3.22090809
+Mon Mar 13 17:15:51 2023

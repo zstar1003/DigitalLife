@@ -1,0 +1,30 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/script.rpy", line 14, in script
+    python:
+  File "game/script.rpy", line 29, in <module>
+    thread = threading.Thread(target=send_txt())
+  File "game/script.rpy", line 25, in send_txt
+    s.connect(('127.0.0.1', 12345))
+ConnectionRefusedError: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "game/script.rpy", line 14, in script
+    python:
+  File "D:\Desktop\live2d-chatgpt-vits\renpy\renpy\ast.py", line 1131, in execute
+    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
+  File "D:\Desktop\live2d-chatgpt-vits\renpy\renpy\python.py", line 1061, in py_exec_bytecode
+    exec(bytecode, globals, locals)
+  File "game/script.rpy", line 29, in <module>
+    thread = threading.Thread(target=send_txt())
+  File "game/script.rpy", line 25, in send_txt
+    s.connect(('127.0.0.1', 12345))
+ConnectionRefusedError: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+
+Windows-10-10.0.19041 AMD64
+Ren'Py 8.0.3.22090809
+Paimon 1.0
+Wed Mar 15 12:45:17 2023
